@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  p 
+  h1 
+    center Git Connect
+  div 
+    center WELCOME #{user.displayName}
+  br
+  p
+  h3 Following
+  p
+  div
+    ul
+    each val in body
+      li= val.login 
+        a(href="unfollow/#{val.login}")
+          button Unfollow
+  br   
+  p
+  a(href="logout")
+    button Logout
