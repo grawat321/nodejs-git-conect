@@ -1,4 +1,4 @@
-# NodeJs Git-Connect Application
+# NodeJs Git-Connect
 
 
 A web application built with NodeJS, express framework and github API to let users signup and sign-in with their Github credentials and lets the user check his followings and unfollow any user on Github.
