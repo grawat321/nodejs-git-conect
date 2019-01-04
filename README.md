@@ -5,9 +5,11 @@ A web application built with NodeJS, express framework and github API to let use
 
 ## Getting Started
 
-Start the project using two terminals and type.
+Configure the keys.js in config folder.
 
-mongod
+Start the project using two terminals and type =>
+
+mongod,
 npm start
 
 Open localhost port no. 4000 in your web browser. Your application will start.
